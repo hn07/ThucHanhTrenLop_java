@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Cau60 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Hãy kiểm tra số nguyên dương n có toàn chữ số chẳn hay không");
+        System.out.println("hay nhap vao so n ");
+        int n = (int) sc.nextDouble();
+        int m = (int) sc.nextDouble();
+        System.out.println(BCNN(n, m));
+
+    }
+
+    public static int UCLN(int a, int b) {
+        while (a != b) {
+            if (a > b)
+                a = a - b;
+            else
+                b = b - a;
+        }
+        return a;
+
+    }
+
+    public static int  BCNN(int a , int b) {
+        return (a*b)/UCLN(a, b);
+    }
+}

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Cay42 {
+public class Cau {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("so luong chu so trooop n ");
