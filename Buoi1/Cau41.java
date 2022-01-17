@@ -5,7 +5,7 @@ public class Cau41 {
         Scanner sc = new Scanner(System.in);
         System.out.println("cau so nguyen duong S(k)  nho hon n ");
         System.out.println("hay nhap vao so n ");
-        double n = sc.nextDouble();
+                double n = sc.nextDouble();
         System.out.println(soNguyenK(n));
 
     }
@@ -13,10 +13,10 @@ public class Cau41 {
     public static double soNguyenK(double n) {
         double S = 0;
         double i = 2;
-        while (S + i < n) {
+        while ((S+i) < n) {
             i++;
             S = S + i;
         }
-        return S;
+        return i-1;
     }
 }
