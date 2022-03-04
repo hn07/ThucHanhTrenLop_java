@@ -1,3 +1,5 @@
+package Buoi1;
+
 // import java.nio.channels.Pipe;
 
 public class Tinh {

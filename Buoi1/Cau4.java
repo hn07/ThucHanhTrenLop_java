@@ -1,3 +1,5 @@
+package Buoi1;
+
 public class Cau4 {
 
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package Buoi1;
+
 public class Cau18 {
     public static void main(String[] args) {
         System.out.println("cau 18");

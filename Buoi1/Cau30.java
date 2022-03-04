@@ -1,3 +1,5 @@
+package Buoi1;
+
 public class Cau30 {
     public static void main(String[] args) {
         System.out.println("kiem tra So hoan thien ");

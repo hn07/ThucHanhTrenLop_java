@@ -1,3 +1,5 @@
+package Buoi1;
+
 import java.util.Scanner;
 
 import javax.lang.model.element.Element;

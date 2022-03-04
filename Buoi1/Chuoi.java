@@ -1,3 +1,5 @@
+package Buoi1;
+
 public class Chuoi {
     public static void main(String[] args) {
         System.out.println("Chuoi");

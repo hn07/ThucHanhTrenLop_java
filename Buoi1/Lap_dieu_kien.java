@@ -1,3 +1,5 @@
+package Buoi1;
+
 public class Lap_dieu_kien {
     public static void main(String[] args) {
         System.out.println("kap_dieu_kien ");
